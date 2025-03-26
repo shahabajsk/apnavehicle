@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Elements -->
+  <circle cx="400" cy="300" r="250" fill="url(#gradient1)" opacity="0.1"/>
+  <circle cx="400" cy="300" r="200" fill="url(#gradient2)" opacity="0.05"/>
+  
+  <!-- Vehicle Body -->
+  <path d="M200 400 L600 400 L550 300 L250 300 Z" fill="url(#gradient3)" stroke="#3563E9" stroke-width="2"/>
+  <path d="M250 300 L550 300 L500 200 L300 200 Z" fill="url(#gradient4)" stroke="#3563E9" stroke-width="2"/>
+  
+  <!-- Wheels -->
+  <circle cx="300" cy="400" r="40" fill="#3563E9" opacity="0.8"/>
+  <circle cx="500" cy="400" r="40" fill="#3563E9" opacity="0.8"/>
+  <circle cx="300" cy="400" r="20" fill="white"/>
+  <circle cx="500" cy="400" r="20" fill="white"/>
+  
+  <!-- Windows -->
+  <path d="M300 250 L450 250 L400 200 L350 200 Z" fill="#3563E9" opacity="0.3"/>
+  
+  <!-- Headlights -->
+  <circle cx="550" cy="250" r="15" fill="#FFD700"/>
+  <circle cx="550" cy="350" r="15" fill="#FFD700"/>
+  
+  <!-- Decorative Lines -->
+  <path d="M250 300 L550 300" stroke="#3563E9" stroke-width="1" opacity="0.3"/>
+  <path d="M300 200 L500 200" stroke="#3563E9" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3563E9"/>
+      <stop offset="100%" stop-color="#7239EA"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3563E9"/>
+      <stop offset="100%" stop-color="#7239EA"/>
+    </linearGradient>
+    <linearGradient id="gradient3" x1="200" y1="400" x2="600" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3563E9"/>
+      <stop offset="100%" stop-color="#7239EA"/>
+    </linearGradient>
+    <linearGradient id="gradient4" x1="250" y1="300" x2="550" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3563E9"/>
+      <stop offset="100%" stop-color="#7239EA"/>
+    </linearGradient>
+  </defs>
+</svg> 
